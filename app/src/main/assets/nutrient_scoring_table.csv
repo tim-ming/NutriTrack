@@ -1,0 +1,14 @@
+Food Group / Nutrient,Energy / Serve,Max Score,Criteria for Max Score,Criteria for Zero Score,Notes & Definitions
+Discretionary,600 kJ,10,Males: < 3 serves; Females: < 2.5 serves,Males: ≥ 6 serves; Females: ≥ 5.5 serves,"Foods high in saturated fat, sugar, salt, alcohol. Not essential."
+Vegetables,75 g,5,Variety of vegetables consumed,No vegetables; Variety score: 0,"75g = ½ cup cooked or 1 cup leafy salad. Variety: leafy, root, etc."
+Fruits,350 kJ (~150g),5,≥ 2 varieties of fruit consumed,No fruit; Variety score: 0,"1 medium or 2 small fruits. Include berries, citrus, stone fruits."
+Grains and Cereals,500 kJ,5,≥ 6 serves,No grains and/or cereals,"Includes breads, rice, pasta."
+Wholegrains,—,5,≥ 50% wholegrains or ≥ 3 serves,No wholegrains,"Wholegrains retain bran, germ, endosperm. Refined grains remove them."
+Meat and Alternatives,550 kJ,10,Males: ≥ 3 serves; Females: ≥ 2.5 serves,Males: ≤ 0.5 serves; Females: 0 serves,"Includes eggs, tofu, legumes, nuts. E.g., 2 eggs, 170g tofu, 30g nuts."
+Dairy and Alternatives,550 kJ,10,≥ 2.5 serves,No dairy and/or alternatives,"Includes milk, yogurt, cheese. Alt: calcium-fortified plant milk."
+Water,—,5,≥ 50% of total beverages from water,Did not meet 1.5L non-alcoholic fluid/day,"Recommended: 8–10 cups (~2–2.5L) fluids/day, mostly water."
+Saturated Fat,—,5,≤ 10% of total energy intake,≥ 12% of total energy intake,Found in animal fats and some oils. Limit to ≤10% of daily energy.
+MUFA & PUFA,10 g (≈2 tsp),10,Males: 4 serves; Females: 2 serves,Males: < 1 serve; Females: < 0.5 serves,"Healthy fats: MUFA (olive oil, avocado), PUFA (fish, nuts)."
+Sodium,—,5,≤ 70 mmol (920 mg),> 100 mmol (3200 mg),1 mmol sodium = 23 mg. Recommended < 2000 mg/day.
+Added Sugars,—,10,< 15% of total energy intake,> 20% of total energy intake,WHO: Limit to <10% of total energy. Added during processing/prep.
+Alcohol,10 g = 1 standard drink,5,≤ 1.4 standard drinks per day,> 1.4 standard drinks per day,"1 std drink: 100ml wine (13%), 285ml beer (4.9%). None is safest."
