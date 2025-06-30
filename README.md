@@ -1,5 +1,6 @@
 # NutriTrack
 A simple nutrition analysis app based on the HEIFA scoring system for a university assignment.
+
 To run the project, 
 1. download the source code
 2. generate a api key from [Google AI Studio](https://aistudio.google.com/app/apikey)
