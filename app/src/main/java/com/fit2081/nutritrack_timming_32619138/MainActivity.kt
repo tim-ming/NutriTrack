@@ -3,6 +3,7 @@ package com.fit2081.nutritrack_timming_32619138
 import android.app.Activity
 import android.content.Context
 import android.content.pm.ActivityInfo
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -37,6 +38,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.core.view.WindowCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavBackStackEntry
@@ -81,6 +83,7 @@ import com.fit2081.nutritrack_timming_32619138.screens.welcome.WelcomeScreen
 import com.fit2081.nutritrack_timming_32619138.screens.welcome.WelcomeViewModel
 import com.fit2081.nutritrack_timming_32619138.ui.theme.NutriTrackTheme
 import com.fit2081.nutritrack_timming_32619138.util.SessionManager
+import setStatusBarTextDark
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -93,7 +96,7 @@ class MainActivity : ComponentActivity() {
         } catch (e: Exception) {
             Log.e("AppDatabase", "Initialization failed", e)
         }
-
+        setStatusBarTextDark(this.window, true)
         setContent {
             val navController = rememberNavController()
             val navigator = remember { Navigator(navController) }
