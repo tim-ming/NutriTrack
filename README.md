@@ -7,7 +7,6 @@ A simple nutrition analysis app based on the [HEIFA scoring system](https://pubm
 ### Stack
 Built in MVVM Architecture (Kotlin) + Gemini API, Room DB, Retrofit (HTTP Client)
 <br>
-<br>
 
 ### Run project
 To run the project, 
